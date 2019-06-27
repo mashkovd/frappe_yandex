@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f50b5c04-55aa-49a9-b9e0-898fb904b9e5" name="yandex_cloud" url="http://84.201.145.198">
+        <fileTransfer host="84.201.145.198" port="22" privateKey="C:\Users\Mashk\putty.ppk" rootFolder="/home/frappe/frappe-bench" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

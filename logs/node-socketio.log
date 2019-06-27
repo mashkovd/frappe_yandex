@@ -1,0 +1,1151 @@
+listening on *: 9000
+listening on *: 9000
+{ Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:696:15)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:18)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+  status: 404,
+  response: 
+   Response {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'NOT FOUND',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        setEncoding: [Function],
+        on: [Function],
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "657b6466b5327a7ba1bf53fd893bb634adfb76916560b01fef8a002e";</script></body>\n\n</html>',
+        read: [Function] },
+     request: 
+      Request {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _agent: false,
+        _formData: null,
+        method: 'GET',
+        url: 'http://www.mashkovd.ru/api/method/frappe.realtime.can_subscribe_doc?sid=610f5d8b3765b84309c37361980024262f077f1c1f217d1fe2efd16c&doctype=Pricing%20Rule&docname=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%A6%D0%B5%D0%BD%D1%8B%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE%202',
+        _header: [Object],
+        header: [Object],
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 5,
+        cookies: '',
+        qs: {},
+        _query: [],
+        qsRaw: [],
+        _redirectList: [],
+        _streamRequest: false,
+        req: [Object],
+        protocol: 'http:',
+        host: 'www.mashkovd.ru',
+        _endCalled: true,
+        _callback: [Function],
+        res: [Object],
+        response: [Circular],
+        called: true },
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=610f5d8b3765b84309c37361980024262f077f1c1f217d1fe2efd16c&doctype=Pricing%20Rule&docname=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%A6%D0%B5%D0%BD%D1%8B%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE%202 HTTP/1.1\r\nHost: www.mashkovd.ru\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/3.8.2\r\nContent-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=610f5d8b3765b84309c37361980024262f077f1c1f217d1fe2efd16c&doctype=Pricing%20Rule&docname=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%A6%D0%B5%D0%BD%D1%8B%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE%202',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "657b6466b5327a7ba1bf53fd893bb634adfb76916560b01fef8a002e";</script></body>\n\n</html>',
+     body: {},
+     files: undefined,
+     buffered: true,
+     headers: 
+      { server: 'nginx',
+        date: 'Thu, 20 Jun 2019 15:27:50 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     header: 
+      { server: 'nginx',
+        date: 'Thu, 20 Jun 2019 15:27:50 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     statusCode: 404,
+     status: 404,
+     statusType: 4,
+     info: false,
+     ok: false,
+     redirect: false,
+     clientError: true,
+     serverError: false,
+     error: 
+      { Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=610f5d8b3765b84309c37361980024262f077f1c1f217d1fe2efd16c&doctype=Pricing%20Rule&docname=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%A6%D0%B5%D0%BD%D1%8B%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE%202 (404)
+    at Response.toError (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+    at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+    at new Response (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+    at Request._emitResponse (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:742:20)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:38)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+        status: 404,
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "657b6466b5327a7ba1bf53fd893bb634adfb76916560b01fef8a002e";</script></body>\n\n</html>',
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=610f5d8b3765b84309c37361980024262f077f1c1f217d1fe2efd16c&doctype=Pricing%20Rule&docname=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%A6%D0%B5%D0%BD%D1%8B%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE%202' },
+     accepted: false,
+     noContent: false,
+     badRequest: false,
+     unauthorized: false,
+     notAcceptable: false,
+     forbidden: false,
+     notFound: true,
+     type: 'text/html',
+     charset: 'utf-8',
+     links: {},
+     setEncoding: [Function: bound ],
+     redirects: [] } }
+{ Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:696:15)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:18)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+  status: 404,
+  response: 
+   Response {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'NOT FOUND',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        setEncoding: [Function],
+        on: [Function],
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "10ddde7658ea731c9673991909951e01355cbc3326666eea3ab0fa24";</script></body>\n\n</html>',
+        read: [Function] },
+     request: 
+      Request {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _agent: false,
+        _formData: null,
+        method: 'GET',
+        url: 'http://www.mashkovd.ru/api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Delivery%20Note&docname=New%20%D0%90%D0%BA%D1%82%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%201',
+        _header: [Object],
+        header: [Object],
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 5,
+        cookies: '',
+        qs: {},
+        _query: [],
+        qsRaw: [],
+        _redirectList: [],
+        _streamRequest: false,
+        req: [Object],
+        protocol: 'http:',
+        host: 'www.mashkovd.ru',
+        _endCalled: true,
+        _callback: [Function],
+        res: [Object],
+        response: [Circular],
+        called: true },
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Delivery%20Note&docname=New%20%D0%90%D0%BA%D1%82%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%201 HTTP/1.1\r\nHost: www.mashkovd.ru\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/3.8.2\r\nContent-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Delivery%20Note&docname=New%20%D0%90%D0%BA%D1%82%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%201',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "10ddde7658ea731c9673991909951e01355cbc3326666eea3ab0fa24";</script></body>\n\n</html>',
+     body: {},
+     files: undefined,
+     buffered: true,
+     headers: 
+      { server: 'nginx',
+        date: 'Fri, 21 Jun 2019 12:12:27 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     header: 
+      { server: 'nginx',
+        date: 'Fri, 21 Jun 2019 12:12:27 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     statusCode: 404,
+     status: 404,
+     statusType: 4,
+     info: false,
+     ok: false,
+     redirect: false,
+     clientError: true,
+     serverError: false,
+     error: 
+      { Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Delivery%20Note&docname=New%20%D0%90%D0%BA%D1%82%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%201 (404)
+    at Response.toError (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+    at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+    at new Response (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+    at Request._emitResponse (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:742:20)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:38)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+        status: 404,
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "10ddde7658ea731c9673991909951e01355cbc3326666eea3ab0fa24";</script></body>\n\n</html>',
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Delivery%20Note&docname=New%20%D0%90%D0%BA%D1%82%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%201' },
+     accepted: false,
+     noContent: false,
+     badRequest: false,
+     unauthorized: false,
+     notAcceptable: false,
+     forbidden: false,
+     notFound: true,
+     type: 'text/html',
+     charset: 'utf-8',
+     links: {},
+     setEncoding: [Function: bound ],
+     redirects: [] } }
+{ Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:696:15)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:18)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+  status: 404,
+  response: 
+   Response {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'NOT FOUND',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        setEncoding: [Function],
+        on: [Function],
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "10ddde7658ea731c9673991909951e01355cbc3326666eea3ab0fa24";</script></body>\n\n</html>',
+        read: [Function] },
+     request: 
+      Request {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _agent: false,
+        _formData: null,
+        method: 'GET',
+        url: 'http://www.mashkovd.ru/api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Item&docname=New%20Item%201',
+        _header: [Object],
+        header: [Object],
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 5,
+        cookies: '',
+        qs: {},
+        _query: [],
+        qsRaw: [],
+        _redirectList: [],
+        _streamRequest: false,
+        req: [Object],
+        protocol: 'http:',
+        host: 'www.mashkovd.ru',
+        _endCalled: true,
+        _callback: [Function],
+        res: [Object],
+        response: [Circular],
+        called: true },
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Item&docname=New%20Item%201 HTTP/1.1\r\nHost: www.mashkovd.ru\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/3.8.2\r\nContent-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Item&docname=New%20Item%201',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "10ddde7658ea731c9673991909951e01355cbc3326666eea3ab0fa24";</script></body>\n\n</html>',
+     body: {},
+     files: undefined,
+     buffered: true,
+     headers: 
+      { server: 'nginx',
+        date: 'Fri, 21 Jun 2019 16:00:28 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     header: 
+      { server: 'nginx',
+        date: 'Fri, 21 Jun 2019 16:00:28 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     statusCode: 404,
+     status: 404,
+     statusType: 4,
+     info: false,
+     ok: false,
+     redirect: false,
+     clientError: true,
+     serverError: false,
+     error: 
+      { Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Item&docname=New%20Item%201 (404)
+    at Response.toError (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+    at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+    at new Response (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+    at Request._emitResponse (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:742:20)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:38)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+        status: 404,
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "10ddde7658ea731c9673991909951e01355cbc3326666eea3ab0fa24";</script></body>\n\n</html>',
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=3a6444ed1575dc28891e90510e9bcc5ca6b73d6871809b9acbe9b408&doctype=Item&docname=New%20Item%201' },
+     accepted: false,
+     noContent: false,
+     badRequest: false,
+     unauthorized: false,
+     notAcceptable: false,
+     forbidden: false,
+     notFound: true,
+     type: 'text/html',
+     charset: 'utf-8',
+     links: {},
+     setEncoding: [Function: bound ],
+     redirects: [] } }
+{ Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:696:15)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:18)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+  status: 404,
+  response: 
+   Response {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'NOT FOUND',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        setEncoding: [Function],
+        on: [Function],
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "7d72e609cdb404bfcc02bf8c067b1ebd905bd6c2a6bff97c656d866c";</script></body>\n\n</html>',
+        read: [Function] },
+     request: 
+      Request {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _agent: false,
+        _formData: null,
+        method: 'GET',
+        url: 'http://www.mashkovd.ru/api/method/frappe.realtime.can_subscribe_doc?sid=d8e227debd577ce11457a605729d7554416bcd787b13130e9fa146d6&doctype=Sales%20Order&docname=New%20%D0%A1%D0%BC%D0%B5%D1%82%D0%B0%201',
+        _header: [Object],
+        header: [Object],
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 5,
+        cookies: '',
+        qs: {},
+        _query: [],
+        qsRaw: [],
+        _redirectList: [],
+        _streamRequest: false,
+        req: [Object],
+        protocol: 'http:',
+        host: 'www.mashkovd.ru',
+        _endCalled: true,
+        _callback: [Function],
+        res: [Object],
+        response: [Circular],
+        called: true },
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=d8e227debd577ce11457a605729d7554416bcd787b13130e9fa146d6&doctype=Sales%20Order&docname=New%20%D0%A1%D0%BC%D0%B5%D1%82%D0%B0%201 HTTP/1.1\r\nHost: www.mashkovd.ru\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/3.8.2\r\nContent-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=d8e227debd577ce11457a605729d7554416bcd787b13130e9fa146d6&doctype=Sales%20Order&docname=New%20%D0%A1%D0%BC%D0%B5%D1%82%D0%B0%201',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "7d72e609cdb404bfcc02bf8c067b1ebd905bd6c2a6bff97c656d866c";</script></body>\n\n</html>',
+     body: {},
+     files: undefined,
+     buffered: true,
+     headers: 
+      { server: 'nginx',
+        date: 'Sun, 23 Jun 2019 06:40:42 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     header: 
+      { server: 'nginx',
+        date: 'Sun, 23 Jun 2019 06:40:42 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Array],
+        'content-encoding': 'gzip' },
+     statusCode: 404,
+     status: 404,
+     statusType: 4,
+     info: false,
+     ok: false,
+     redirect: false,
+     clientError: true,
+     serverError: false,
+     error: 
+      { Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=d8e227debd577ce11457a605729d7554416bcd787b13130e9fa146d6&doctype=Sales%20Order&docname=New%20%D0%A1%D0%BC%D0%B5%D1%82%D0%B0%201 (404)
+    at Response.toError (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+    at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+    at new Response (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+    at Request._emitResponse (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:742:20)
+    at Stream.parser (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:906:38)
+    at emitNone (events.js:106:13)
+    at Stream.emit (events.js:208:7)
+    at Unzip.unzip.on (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:55:12)
+    at emitNone (events.js:111:20)
+    at Unzip.emit (events.js:208:7)
+        status: 404,
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/erpnext-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n\t\twindow.socketio_port = 9000;\n    </script>\n</head>\n\n<body data-path="api/method/frappe.realtime.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div class="wrapper">\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span>abc</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li><li class=\'switch-to-desk hidden\'><a href="/desk">Switch To Desk</a></li>\n\t</ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" \nid="page-message" data-path="message"\n>\n\t\n\t<div class="page-content without-sidebar">\n\t\t<div class="page-content-wrapper">\n\t\t\t<div class="row page-head">\n\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n.page-card {\n\tmax-width: 360px;\n\tpadding: 15px;\n\tmargin: 70px auto;\n\tborder: 1px solid #d1d8dd;\n\tborder-radius: 4px;\n\tbackground-color: #fff;\n\tbox-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n.page-card .page-card-head {\n\tpadding: 10px 15px;\n\tmargin: -15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #d1d8dd;\n}\n.page-card .page-card-head .indicator {\n\tcolor: #36414C;\n\tfont-size: 14px;\n}\n.page-card .page-card-head .indicator::before {\n\tmargin: 0 6px 0.5px 0px;\n}\n.page-card .btn {\n\tmargin-top: 30px;\n}\n.page-card p {\n\tfont-size: 14px;\n}\n\n\n</style>\n<div class=\'page-card\'>\n\t<h5 class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</h5>\n\t<div class="page-card-body">\n\t\n\t\t<p>The resource you are looking for is not available</p>\n\t\t\n\t\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\t\tHome</a></div>\n\t\t\n\t\n\t</div>\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<script>\n\tfrappe.ready(function() {\n\t\tif(window.location.hash) {\n\t\t\tlocalStorage.setItem(\'session_last_route\', window.location.hash.substr(1));\n\t\t}\n\n\t\t$(\'.btn-primary\').focus();\n\t});\n</script>\n</div>\n\t\t</div>\n\t\t<!-- sidebar ends -->\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val() && validate_email($("#footer-subscribe-email").val())) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter valid email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; abc\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script src="/assets/frappe/js/lib/socket.io.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/bootstrap.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\t<script>frappe.csrf_token = "7d72e609cdb404bfcc02bf8c067b1ebd905bd6c2a6bff97c656d866c";</script></body>\n\n</html>',
+        method: 'GET',
+        path: '/api/method/frappe.realtime.can_subscribe_doc?sid=d8e227debd577ce11457a605729d7554416bcd787b13130e9fa146d6&doctype=Sales%20Order&docname=New%20%D0%A1%D0%BC%D0%B5%D1%82%D0%B0%201' },
+     accepted: false,
+     noContent: false,
+     badRequest: false,
+     unauthorized: false,
+     notAcceptable: false,
+     forbidden: false,
+     notFound: true,
+     type: 'text/html',
+     charset: 'utf-8',
+     links: {},
+     setEncoding: [Function: bound ],
+     redirects: [] } }
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Dispatching obuhov@d.ru typing to room site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Dispatching novik.dichko@gmail.com typing to room site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing obuhov@d.ru to room CR00001
+frappe.chat: Subscribing obuhov@d.ru to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to room CR00001
+frappe.chat: Subscribing novik.dichko@gmail.com to event site1.local:room:CR00001

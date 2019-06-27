@@ -1,0 +1,333 @@
+[2019-06-18 19:35:14 +0000] [11704] [INFO] Starting gunicorn 19.9.0
+[2019-06-18 19:35:14 +0000] [11704] [INFO] Listening at: http://127.0.0.1:8000 (11704)
+[2019-06-18 19:35:14 +0000] [11704] [INFO] Using worker: sync
+[2019-06-18 19:35:14 +0000] [11859] [INFO] Booting worker with pid: 11859
+[2019-06-18 19:35:14 +0000] [11860] [INFO] Booting worker with pid: 11860
+[2019-06-18 19:35:15 +0000] [11704] [INFO] Handling signal: term
+[2019-06-18 19:35:15 +0000] [11859] [INFO] Worker exiting (pid: 11859)
+[2019-06-18 19:35:15 +0000] [11860] [INFO] Worker exiting (pid: 11860)
+[2019-06-18 19:35:16 +0000] [11704] [INFO] Shutting down: Master
+[2019-06-18 19:35:21 +0000] [11889] [INFO] Starting gunicorn 19.9.0
+[2019-06-18 19:35:21 +0000] [11889] [INFO] Listening at: http://127.0.0.1:8000 (11889)
+[2019-06-18 19:35:21 +0000] [11889] [INFO] Using worker: sync
+[2019-06-18 19:35:21 +0000] [11926] [INFO] Booting worker with pid: 11926
+[2019-06-18 19:35:21 +0000] [11927] [INFO] Booting worker with pid: 11927
+[2019-06-19 06:55:07 +0000] [11926] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3b045f38> is not JSON serializable
+[2019-06-19 06:55:21 +0000] [11926] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3bc2b988> is not JSON serializable
+[2019-06-19 06:55:22 +0000] [11926] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3bc2b3d8> is not JSON serializable
+[2019-06-19 06:58:31 +0000] [11927] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3be00510> is not JSON serializable
+[2019-06-19 06:58:40 +0000] [11927] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3ac801d0> is not JSON serializable
+[2019-06-19 07:00:59 +0000] [11926] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3bbb0370> is not JSON serializable
+[2019-06-19 07:01:03 +0000] [11927] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3ac7a578> is not JSON serializable
+[2019-06-21 07:04:17 +0000] [11926] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3b108780> is not JSON serializable
+[2019-06-21 07:04:18 +0000] [11927] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3bf70098> is not JSON serializable
+[2019-06-21 07:04:29 +0000] [11926] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3b0451d0> is not JSON serializable
+[2019-06-21 07:04:30 +0000] [11926] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 231, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/wrappers/base_request.py", line 235, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 148, in handle_exception
+    response = frappe.utils.response.report_error(http_status_code)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 33, in report_error
+    response = build_response("json")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 52, in build_response
+    return response_type_map[frappe.response.get('type') or response_type]()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 86, in as_json
+    response.data = json.dumps(frappe.local.response, default=json_handler, separators=(',',':'))
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/response.py", line 147, in json_handler
+    (type(obj), repr(obj)))
+TypeError: Object of type <type '_sre.SRE_Match'> with value of <_sre.SRE_Match object at 0x7faa3a990ac0> is not JSON serializable

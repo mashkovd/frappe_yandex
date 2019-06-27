@@ -1,0 +1,219 @@
+[ERROR] 2019-06-22 09:07:52,593 | /home/frappe/frappe-bench/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "action": "Save", 
+ "cmd": "frappe.desk.form.save.savedocs", 
+ "doc": "{\"first_email\":\"11:43:38\",\"tasks\":[{\"status\":\"Closed\",\"name\":\"199b82e990\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0443\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.061770\",\"task_id\":\"TASK-2019-00002\",\"modified\":\"2019-06-22 12:06:02.061770\",\"doctype\":\"Project Task\",\"idx\":1,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Working\",\"name\":\"839db6b15e\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u043d\u0430\u043b\u043e\u0433\u043e\u0432\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.062449\",\"task_id\":\"TASK-2019-00003\",\"modified\":\"2019-06-22 12:06:02.062449\",\"doctype\":\"Project Task\",\"idx\":2,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Working\",\"name\":\"eb043c8f66\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u0441\u0447\u0435\u0442\u043e\u0432\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.063068\",\"task_id\":\"TASK-2019-00004\",\"modified\":\"2019-06-22 12:06:02.063068\",\"doctype\":\"Project Task\",\"idx\":3,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"f095b383e1\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0441\u0442\u043e\u043b\u0431\u0435\u0446 \u0432 \u0421\u041c\u0415\u0422\u0423\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.063651\",\"task_id\":\"TASK-2019-00005\",\"modified\":\"2019-06-22 12:06:02.063651\",\"doctype\":\"Project Task\",\"idx\":4,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"ab2e62d2b7\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041f\u0440\u043e\u0434\u0443\u043c\u0430\u0442\u044c \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c \u043f\u0440\u043e\u0434\u0430\u0436\u0438\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.064205\",\"task_id\":\"TASK-2019-00006\",\"modified\":\"2019-06-22 12:06:02.064205\",\"doctype\":\"Project Task\",\"idx\":5,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"13dedbc006\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 Tutorial \",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.064881\",\"task_id\":\"TASK-2019-00007\",\"modified\":\"2019-06-22 12:06:02.064881\",\"doctype\":\"Project Task\",\"idx\":6,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"b9e4c2f855\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0439 Tutorial 2\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.065470\",\"task_id\":\"TASK-2019-00008\",\"modified\":\"2019-06-22 12:06:02.065470\",\"doctype\":\"Project Task\",\"idx\":7,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"26799624a5\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043f\u0435\u0447\u0430\u0442\u043d\u044b\u0435 \u0444\u043e\u0440\u043c\u044b \u041a\u0421-2 \u0438 \u041a\u0421-3\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.066020\",\"task_id\":\"TASK-2019-00009\",\"modified\":\"2019-06-22 12:06:02.066020\",\"doctype\":\"Project Task\",\"idx\":8,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"d24ac7ea0a\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043f\u0435\u0447\u0430\u0442\u043d\u0443\u044e \u0444\u043e\u0440\u043c\u044b \u0421\u043c\u0435\u0442\u044b\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.066601\",\"task_id\":\"TASK-2019-00010\",\"modified\":\"2019-06-22 12:06:02.066601\",\"doctype\":\"Project Task\",\"idx\":9,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"446433f6c2\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 \u041d\u0430\u043a\u043b\u0430\u0434\u043d\u043e\u0439\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.067236\",\"task_id\":\"TASK-2019-00011\",\"modified\":\"2019-06-22 12:06:02.067236\",\"doctype\":\"Project Task\",\"idx\":10,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"7f7124ea37\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041e\u0448\u0438\u0431\u043a\u0430 \u0438\u0441\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f \u043d\u0430\u043b\u043e\u0433\u043e\u0432\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.067781\",\"task_id\":\"TASK-2019-00012\",\"modified\":\"2019-06-22 12:06:02.067781\",\"doctype\":\"Project Task\",\"idx\":11,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"91b05f2523\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"Delivery Date \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043a\u0430\u043a \u0434\u0430\u0442\u0430 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0421\u043c\u0435\u0442\u044b/\u041a\u043e\u043d\u0442\u0440\u0430\u043a\u0442\u0430\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.068316\",\"task_id\":\"TASK-2019-00013\",\"modified\":\"2019-06-22 12:06:02.068316\",\"doctype\":\"Project Task\",\"idx\":12,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"3e05704021\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041f\u0435\u0440\u0435\u0432\u0435\u0441\u0442\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0443 \",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.068883\",\"task_id\":\"TASK-2019-00014\",\"modified\":\"2019-06-22 12:06:02.068883\",\"doctype\":\"Project Task\",\"idx\":13,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"1406f8a539\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u043a\u043e\u0434 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.069451\",\"task_id\":\"TASK-2019-00015\",\"modified\":\"2019-06-22 12:06:02.069451\",\"doctype\":\"Project Task\",\"idx\":14,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"af4f911267\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0412\u044b\u0431\u0440\u0430\u0442\u044c \u043e\u0431\u043b\u0430\u043a\u043e \u0434\u043b\u044f \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.069995\",\"task_id\":\"TASK-2019-00016\",\"modified\":\"2019-06-22 12:06:02.069995\",\"doctype\":\"Project Task\",\"idx\":15,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"320899f167\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0423\u0432\u0435\u043b\u0438\u0447\u0438\u0442\u044c \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0441\u0442\u0440\u043e\u043a \u043f\u0440\u0438 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u0441\u043c\u0435\u0442\u044b\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.070521\",\"task_id\":\"TASK-2019-00017\",\"modified\":\"2019-06-22 12:06:02.070521\",\"doctype\":\"Project Task\",\"idx\":16,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"902e1df6a4\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041f\u0440\u0438\u0434\u0443\u043c\u0430\u0442\u044c \u0443\u0434\u043e\u0431\u043d\u0443\u044e \u0432\u0438\u0437\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044e \u043a \u041f\u0420\u041e\u0415\u041a\u0422\u0423\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.071057\",\"task_id\":\"TASK-2019-00018\",\"modified\":\"2019-06-22 12:06:02.071057\",\"doctype\":\"Project Task\",\"idx\":17,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"94aa296933\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0420\u0430\u0437\u043e\u0431\u0440\u0430\u0442\u044c\u0441\u044f \u0441 \u043d\u0430\u043b\u043e\u0433\u0430\u043c\u0438 \u043f\u0440\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0435\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.071639\",\"task_id\":\"TASK-2019-00019\",\"modified\":\"2019-06-22 12:06:02.071639\",\"doctype\":\"Project Task\",\"idx\":18,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"24aada9660\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0420\u0430\u0437\u043e\u0431\u0440\u0430\u0442\u044c\u0441\u044f \u0441 Drop \u043f\u0440\u043e\u0434\u0430\u0436\u0435\u0439\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.072183\",\"task_id\":\"TASK-2019-00020\",\"modified\":\"2019-06-22 12:06:02.072183\",\"doctype\":\"Project Task\",\"idx\":19,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"8859c7841a\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0420\u0430\u0437\u0434\u0435\u043b\u0438\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0443 \u043d\u0430 \u043c\u043e\u0434\u0443\u043b\u0438 \u0434\u043b\u044f \u043f\u0440\u043e\u0434\u0430\u0436\u0438\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.073100\",\"task_id\":\"TASK-2019-00021\",\"modified\":\"2019-06-22 12:06:02.073100\",\"doctype\":\"Project Task\",\"idx\":20,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"ddb55bd4be\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u0442\u044c \u0446\u0435\u043d\u043e\u0432\u0443\u044e \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0443 \",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.073674\",\"task_id\":\"TASK-2019-00022\",\"modified\":\"2019-06-22 12:06:02.073674\",\"doctype\":\"Project Task\",\"idx\":21,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"3b4cab234e\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041b\u0438\u0446\u0435\u043d\u0437\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0442\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0437\u043d\u0430\u043a\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.074227\",\"task_id\":\"TASK-2019-00023\",\"modified\":\"2019-06-22 12:06:02.074227\",\"doctype\":\"Project Task\",\"idx\":22,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"3302b634cb\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041f\u0440\u043e\u0434\u0443\u043c\u0430\u0442\u044c \u043b\u043e\u0433\u0438\u043a\u0443 \u0441\u0430\u0439\u0442\u0430\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.074912\",\"task_id\":\"TASK-2019-00024\",\"modified\":\"2019-06-22 12:06:02.074912\",\"doctype\":\"Project Task\",\"idx\":23,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"f7f32c5158\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0441\u0430\u0439\u0442\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.075487\",\"task_id\":\"TASK-2019-00025\",\"modified\":\"2019-06-22 12:06:02.075487\",\"doctype\":\"Project Task\",\"idx\":24,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"c1b69c8364\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u041f\u0440\u043e\u0434\u0443\u043c\u0430\u0442\u044c \u0440\u0435\u043a\u043b\u0430\u043c\u043d\u0443\u044e \u0430\u043a\u0446\u0438\u044e\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.076080\",\"task_id\":\"TASK-2019-00026\",\"modified\":\"2019-06-22 12:06:02.076080\",\"doctype\":\"Project Task\",\"idx\":25,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"c050be143a\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0417\u0430\u0440\u0443\u0447\u0438\u0442\u0441\u044f \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 \u0421\u0442\u0440\u043e\u0439\u041d\u0430\u0446\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.076608\",\"task_id\":\"TASK-2019-00027\",\"modified\":\"2019-06-22 12:06:02.076608\",\"doctype\":\"Project Task\",\"idx\":26,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"name\":\"2a2bb365b2\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0418\u0437\u0443\u0447\u0438\u0442\u044c \u043d\u0430\u043b\u043e\u0433\u043e\u0432\u044b\u0435 \u043f\u0440\u0438\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438 \u0434\u043b\u044f IT \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.077179\",\"task_id\":\"TASK-2019-00028\",\"modified\":\"2019-06-22 12:06:02.077179\",\"doctype\":\"Project Task\",\"idx\":27,\"parenttype\":\"Project\",\"docstatus\":0,\"parentfield\":\"tasks\"},{\"status\":\"Open\",\"end_date\":\"2019-06-09\",\"name\":\"5859f7849e\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"title\":\"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0438\u0441\u0445\u043e\u0434\u043d\u0438\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b\",\"task_weight\":0,\"creation\":\"2019-06-22 12:06:02.077712\",\"task_id\":\"TASK-2019-00001\",\"modified\":\"2019-06-22 12:06:02.077712\",\"doctype\":\"Project Task\",\"idx\":28,\"parenttype\":\"Project\",\"docstatus\":0,\"start_date\":\"2019-06-01\",\"parentfield\":\"tasks\"}],\"total_sales_amount\":0,\"total_expense_claim\":0,\"creation\":\"2019-06-22 11:45:17.417356\",\"doctype\":\"Project\",\"weekly_time_to_send\":\"11:43:38\",\"total_billed_amount\":0,\"frequency\":\"Hourly\",\"per_gross_margin\":0,\"project_type\":\"Internal\",\"owner\":\"novik.dichko@gmail.com\",\"cost_center\":\"Main - Ab\",\"total_consumed_material_cost\":0,\"users\":[{\"modified_by\":\"novik.dichko@gmail.com\",\"name\":\"2d65ba4923\",\"parent\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"image\":\"/files/\u0410\u0432\u0430\u0442\u0430\u0440_\u041e\u0431\u0443\u0445\u043e\u0432_\u0447\u0435\u0440\u043d.png\",\"creation\":\"2019-06-22 11:45:17.417356\",\"welcome_email_sent\":0,\"modified\":\"2019-06-22 12:06:01.881550\",\"doctype\":\"Project User\",\"idx\":1,\"parenttype\":\"Project\",\"view_attachments\":1,\"user\":\"obuhov@d.ru\",\"full_name\":\"user.full_name\",\"owner\":\"novik.dichko@gmail.com\",\"docstatus\":0,\"email\":\"obuhov@d.ru\",\"parentfield\":\"users\"}],\"modified_by\":\"novik.dichko@gmail.com\",\"total_billable_amount\":0,\"total_costing_amount\":0,\"priority\":\"Medium\",\"total_purchase_cost\":0,\"docstatus\":0,\"company\":\"abc\",\"second_email\":\"11:43:38\",\"status\":\"Open\",\"project_name\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"day_to_send\":\"Monday\",\"copied_from\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"percent_complete_method\":\"Task Completion\",\"estimated_costing\":1500000,\"is_active\":\"Yes\",\"daily_time_to_send\":\"11:43:38\",\"expected_end_date\":\"2019-07-31\",\"gross_margin\":0,\"to_time\":\"11:43:38\",\"percent_complete\":0,\"from_time\":\"11:43:38\",\"name\":\"\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 ERP\",\"idx\":0,\"expected_start_date\":\"2019-06-01\",\"modified\":\"2019-06-22 12:06:01.881550\",\"collect_progress\":0,\"__onload\":{\"activity_summary\":[]},\"actual_time\":0,\"__last_sync_on\":\"2019-06-22T09:06:31.203Z\",\"__unsaved\":1}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 22, in savedocs
+    doc.save()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 260, in save
+    return self._save(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 296, in _save
+    self.run_before_save_methods()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 876, in run_before_save_methods
+    self.run_method("validate")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 772, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 1048, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 1031, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 766, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/projects/doctype/project/project.py", line 76, in validate
+    self.send_welcome_email()
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/projects/doctype/project/project.py", line 308, in send_welcome_email
+    content=content.format(*messages))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 468, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/email/queue.py", line 69, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/email/smtp.py", line 86, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 356, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 342, in msgprint
+    _raise_exception()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 315, in _raise_exception
+    raise raise_exception(msg)
+OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+[ERROR] 2019-06-22 19:27:38,972 | /home/frappe/frappe-bench/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "cmd": "frappe.www.list.get", 
+ "data": ""
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+TypeError: get() takes at least 1 argument (0 given)
+[ERROR] 2019-06-23 07:00:25,955 | /home/frappe/frappe-bench/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "aggregation": "sum", 
+ "cmd": "frappe.utils.goal.get_monthly_goal_graph_data", 
+ "date_field": "posting_date", 
+ "docname": "\u041e\u041e\u041e \"\u0421\u0442\u0440\u043e\u0439\u0441\u043d\u0430\u0431\"", 
+ "doctype": "Company", 
+ "filter_str": "docstatus = 1 and is_opening != 'Yes'", 
+ "goal_doctype": "Sales Invoice", 
+ "goal_doctype_link": "company", 
+ "goal_field": "base_grand_total", 
+ "goal_history_field": "sales_monthly_history", 
+ "goal_total_field": "total_monthly_sales", 
+ "goal_value_field": "monthly_sales_target", 
+ "title": "Sales"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/goal.py", line 75, in get_monthly_goal_graph_data
+    month_to_value_dict = get_monthly_results(goal_doctype, goal_field, date_field, doc_filter, aggregation)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/goal.py", line 21, in get_monthly_results
+    goal_doctype, where_clause), as_dict=True)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database.py", line 214, in sql
+    self._cursor.execute(query)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+ProgrammingError: (1064, u'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\u0421\u0442\u0440\u043e\u0439\u0441\u043d\u0430\u0431"" and docstatus = 1 and is_opening != \'Yes\'\n\t\tgroup by\n\t\t\tmon\' at line 5')
+[ERROR] 2019-06-23 07:01:23,371 | /home/frappe/frappe-bench/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "aggregation": "sum", 
+ "cmd": "frappe.utils.goal.get_monthly_goal_graph_data", 
+ "date_field": "posting_date", 
+ "docname": "\u041e\u041e\u041e \"\u0421\u0442\u0440\u043e\u0439\u0441\u043d\u0430\u0431\"", 
+ "doctype": "Company", 
+ "filter_str": "docstatus = 1 and is_opening != 'Yes'", 
+ "goal_doctype": "Sales Invoice", 
+ "goal_doctype_link": "company", 
+ "goal_field": "base_grand_total", 
+ "goal_history_field": "sales_monthly_history", 
+ "goal_total_field": "total_monthly_sales", 
+ "goal_value_field": "monthly_sales_target", 
+ "title": "Sales"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/goal.py", line 75, in get_monthly_goal_graph_data
+    month_to_value_dict = get_monthly_results(goal_doctype, goal_field, date_field, doc_filter, aggregation)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/goal.py", line 21, in get_monthly_results
+    goal_doctype, where_clause), as_dict=True)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database.py", line 214, in sql
+    self._cursor.execute(query)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+ProgrammingError: (1064, u'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\u0421\u0442\u0440\u043e\u0439\u0441\u043d\u0430\u0431"" and docstatus = 1 and is_opening != \'Yes\'\n\t\tgroup by\n\t\t\tmon\' at line 5')
+[ERROR] 2019-06-23 07:01:57,201 | /home/frappe/frappe-bench/apps/frappe/frappe/app.py:
+Site: site1.local
+Form Dict: {
+ "aggregation": "sum", 
+ "cmd": "frappe.utils.goal.get_monthly_goal_graph_data", 
+ "date_field": "posting_date", 
+ "docname": "\u041e\u041e\u041e \"\u0421\u0442\u0440\u043e\u0439\u0441\u043d\u0430\u0431\"", 
+ "doctype": "Company", 
+ "filter_str": "docstatus = 1 and is_opening != 'Yes'", 
+ "goal_doctype": "Sales Invoice", 
+ "goal_doctype_link": "company", 
+ "goal_field": "base_grand_total", 
+ "goal_history_field": "sales_monthly_history", 
+ "goal_total_field": "total_monthly_sales", 
+ "goal_value_field": "monthly_sales_target", 
+ "title": "Sales"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 1032, in call
+    return fn(*args, **newargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/goal.py", line 75, in get_monthly_goal_graph_data
+    month_to_value_dict = get_monthly_results(goal_doctype, goal_field, date_field, doc_filter, aggregation)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/goal.py", line 21, in get_monthly_results
+    goal_doctype, where_clause), as_dict=True)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/database.py", line 214, in sql
+    self._cursor.execute(query)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+ProgrammingError: (1064, u'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\u0421\u0442\u0440\u043e\u0439\u0441\u043d\u0430\u0431"" and docstatus = 1 and is_opening != \'Yes\'\n\t\tgroup by\n\t\t\tmon\' at line 5')

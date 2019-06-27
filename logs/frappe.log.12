@@ -1,0 +1,6 @@
+[ERROR] 2019-06-22 09:07:37,238 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-22 09:07:37.168438-93.80.22.43-474
+[ERROR] 2019-06-23 07:00:26,873 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-23 07:00:26.839684-93.80.22.43-f43
+[ERROR] 2019-06-23 07:01:50,916 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-23 07:01:50.891021-93.80.22.43-933

@@ -1,0 +1,10 @@
+[ERROR] 2019-06-22 09:07:52,678 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-22 09:07:52.594593-93.80.22.43-4ee
+[ERROR] 2019-06-22 19:27:38,975 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-22 19:27:38.973070-66.249.75.117-e84
+[ERROR] 2019-06-23 07:00:25,985 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-23 07:00:25.956699-93.80.22.43-c0b
+[ERROR] 2019-06-23 07:01:23,380 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-23 07:01:23.371735-93.80.22.43-9f0
+[ERROR] 2019-06-23 07:01:57,215 | /home/frappe/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2019-06-23 07:01:57.202481-93.80.22.43-8fe
